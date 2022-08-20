@@ -1,0 +1,70 @@
+body {
+  background-image: url("../images/backround.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+#header-banner {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header-banner img:nth-child(2) {
+  align-self: flex-start;
+}
+
+.mapouter {
+  margin: auto;
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 200px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 200px;
+  width: 200px;
+}
+
+p,
+a,
+h1,
+h2,
+h3 {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+#meme {
+  display: none;
+}
+
+.tap {
+  width: 50%;
+}

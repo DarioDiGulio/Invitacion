@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+    <link rel="stylesheet" href="./assets/styles/components/button.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <title>¡Celebrando la nueva vida!</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title">¿Querés saber el nombre de nuestro hijo?</h1>
+        <div id="header-banner">
+          <img src="./assets/images/image1.jpg" alt="" />
+          <img src="./assets/images/image2.jpg" alt="" />
+          <img src="./assets/images/image3.jpg" alt="" />
+        </div>
+        <p>¡No te pierdas la fiesta de revelación del nombre!</p>
+      </header>
+      <section>
+        <h2>Domingo 25 de Septiembre</h2>
+        <p>12:30 hs. a 18hs.</p>
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="200"
+              height="200"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=pringles%20867,%20Carlos&t=&z=11&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2>¡Necesitamos que confirmes tu asistencia!</h2>
+        <a href="./pages/confirm.html" class="button">Confirmar asistencia</a>
+      </section>
+      <section>
+        <p>
+          Te podemos dar una pista del nombre, si hacés <sup>click</sup> muchas
+          veces en esta foto
+        </p>
+        <img class="tap" id="tap" src="./assets/images/question.png" alt="" />
+        <img
+          class="tap"
+          id="meme"
+          src="./assets/images/pista-meme.jpg"
+          alt=""
+        />
+      </section>
+    </div>
+    <script src="./assets/behaviour/main.js" type="module"></script>
+  </body>
+</html>
